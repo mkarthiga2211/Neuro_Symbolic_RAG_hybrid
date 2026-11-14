@@ -1,0 +1,8 @@
+{
+  "seasonality": "daily + weekly + yearly",
+  "regressors": [
+    "temp",
+    "|temp-18|"
+  ],
+  "note": "fitted once on the training partition; forecasts do not depend on origin"
+}
